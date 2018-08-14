@@ -1,0 +1,82 @@
+﻿body{
+	background: url("../img/bg2.png");
+}
+
+.glyphicon.glyphicon-thumbs-up {
+    font-size: 20px;
+	color:green;
+	transition: color 0.2s;
+	cursor:pointer;
+}
+
+.glyphicon.glyphicon-thumbs-up:hover {
+    color:#FF5900;
+}
+
+.glyphicon.glyphicon-user {
+    font-size: 20px;
+	color:#006FFF;
+}
+
+.glyphicon.glyphicon-hourglass{
+	font-size: 20px;
+}
+
+.header-shadow{
+	/*-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 0px 19px 0px rgba(255,255,255,0.5);*/
+}
+
+.nojs{
+	background-color:rgb(255, 0, 0);
+	width:100%;
+	font-size:2em;
+	text-align:centeR;
+}
+
+.finger{
+	cursor:pointer;
+}
+
+.post_info_yes{
+	position: relative;
+	background-color: #1ED11E;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 30px;
+	margin-top: -40px;
+	border: solid 1px #3F69BF;
+}
+
+.post_info_no{
+	position: relative;
+	background-color: red;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 30px;
+	margin-top: -40px;
+	border: solid 1px #3F69BF;
+}
+
+.feed_info_yes{
+	position: relative;
+	background-color: #1ED11E;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 30px;
+	border: solid 1px #3F69BF;
+}
+
+.feed_info_no{
+	position: relative;
+	background-color: red;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 30px;
+	border: solid 1px #3F69BF;
+}

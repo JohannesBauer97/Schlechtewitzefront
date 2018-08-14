@@ -1,0 +1,14 @@
+ErrorDocument 400 /errorsites/400.html
+ErrorDocument 401 /errorsites/401.html
+ErrorDocument 403 /errorsites/403.html
+ErrorDocument 404 /errorsites/404.html
+ErrorDocument 500 /errorsites/500.html
+ErrorDocument 501 /errorsites/501.html
+ErrorDocument 502 /errorsites/502.html
+ErrorDocument 503 /errorsites/503.html
+
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_value docref_root 0
+php_value docref_ext 0
